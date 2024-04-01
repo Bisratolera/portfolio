@@ -6,8 +6,8 @@ import profile from '../assets/profile.png';
 const Navbar = () => {
   return (
     <div>
-      <Fade direction='down'>
-      <nav className='flex flex-row  mx-96 items-center justify-center gap-8 pt-3 fixed z-50  ' >
+      <Fade>
+      <nav className='flex flex-row w-full items-center justify-center gap-8 py-2  z-50  ' >
         <img className='h-12 rounded-full border-[1.5px] border-2-full ' src={profile} alt="React Logo" />
         <ul className='flex justify-center p-4 bg-slate-300 bg-opacity-40 text-white rounded-full gap-7'>
           <li className=''><a href="/">Home</a></li>

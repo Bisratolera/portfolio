@@ -20,13 +20,13 @@ const About = () => {
         <div className="text-xl skills grid text-center justify-center items-center mt-20 gap-4">
           <h1>audio visual tools</h1>
           <br />
-          <img className="h-20" src={audiovisuals} alt="" />
+          <img className="sm:h-[12vw] md:h-20 w-fit mx-auto" src={audiovisuals} alt="" />
           <h1>programming langs</h1>
           <br />
-          <img className="h-20" src={programming} alt="" />
+          <img className="sm:h-[12vw] md:h-20 w-fit mx-auto" src={programming} alt="" />
           <h1>hardware and software tools</h1>
           <br />
-          <img className="h-20 ml-24" src={tools} alt="" />
+          <img className="sm:h-[12vw] md:h-20 w-fit mx-auto" src={tools} alt="" />
         </div>
       </Fade>
     </div>
