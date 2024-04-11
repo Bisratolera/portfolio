@@ -4,6 +4,7 @@ import About from "./About"
 import Certifications from "./Certifications"
 import Footer from "./Footer"
 
+
 const Home = () => {
   return (
   <div className="">
@@ -12,7 +13,7 @@ const Home = () => {
     <About />
     <Certifications />
     <Footer />
-  
+
   </div>
   )
 }
