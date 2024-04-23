@@ -16,7 +16,7 @@ const Navbar = () => {
           <img className='h-12 rounded-full border-[1.5px] border-2-full' src={profile} alt="Profile" />
           <ul className="hidden md:flex flex-row items-center justify-center space-x-7">
             <li><a href="/">Home</a></li>
-            <li><a href="../About">About</a></li>
+            <li><a href="/">About</a></li>
             <li><a href="/">Works</a></li>
             <li><a href="/">Certifications</a></li>
             <li><a href="/">Contact</a></li>
