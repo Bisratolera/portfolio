@@ -4,9 +4,9 @@ import programming from "../assets/programming.png";
 import tools from "../assets/tools.png";
 const About = () => {
   return (
-    <div className="text-white mx-4 my-7">
+    <div className=" mt-12 my-7">
       <Fade delay={4} cascade damping={0.5}>
-        <h1 className="text-4xl mb-8">who i am</h1>
+        <h1 className="text-4xl mb-8 ">who i am</h1>
       </Fade>
       <Slide direction="up">
         <p>
@@ -17,7 +17,7 @@ const About = () => {
         </p>
       </Slide>
       <Fade direction="up">
-        <div className="text-xl skills grid text-center justify-center items-center mt-1 gap-4">
+        <div className="text-xl skills grid text-center justify-center items-center mt-12 gap-4">
           <h1>audio visual tools</h1>
           <br />
           <img className="sm:h-[12vw] md:h-20 w-fit mx-auto" src={audiovisuals} alt="" />

@@ -1,21 +1,25 @@
-import profile2 from '../assets/profile2.png'
+import main from '../assets/main.jpg';
 import { Slide } from 'react-awesome-reveal';
+import vector from '../assets/Vector.svg'
+
 
 const Page = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-center mx-4 md:mx-28 text-white pt-4 md:pt-32"> 
-      <div className="mr-0 md:mr-8 mb-8 md:mb-0 w-full md:w-auto"> 
-        <div className="text-3xl pt-4 md:pt-8"> 
-          my name is<span className="text-[#07EAE5]">&nbsp; leul dereje</span>
-        </div>
-        <div className="pt-2 md:pt-3 text-justify"> 
-          <p>i am a UI/ux designer and ceo at elites dev co.and also innovation ambassador <br /> at EAII (Ethiopian artificial intelligence institute)now i am learning cisco networking <br /> and hardware maintenance as minor course and software designing as a major course.</p>
-        </div>
-      </div>
-      <div>
+    <div className="grid grid-cols-2 gap-2 sm:justify-center my-20 sm:items-center md:mx-8"> 
+      <div className="">
+        
         <Slide direction='left'>
-          <img className='h-64 md:h-64 w-auto md:w-auto ' src={profile2} alt="Profile" /> 
+          <img src={vector} className='h-10' alt="" /> 
+          <img className='rounded-[200%] rounded-bl-full p-2 h-3/4 ring-8 ring-[#07EAE5]' src={main} alt="Profile" /> 
         </Slide>
+      </div>
+      <div className="text-left">
+        <div className="text-3xl"> 
+          my name is<span className="text-[#FF6BCB]">&nbsp; leul dereje</span>
+        </div>
+        <div className="pt-2 md:pt-3 text-l text-justify"> 
+          <p>i am a UI/ux designer and ceo at elites dev co. and also innovation ambassador <br /> at EAII (Ethiopian artificial intelligence institute). Now I am learning Cisco networking <br /> and hardware maintenance as a minor course and software designing as a major course.</p>
+        </div>
       </div>
     </div>
   );
