@@ -17,8 +17,8 @@ const OnBuild = () => {
       <div className="animation-container">
         <Lottie options={defaultOptions} height={400} width={400} />
       </div>
-      <h1>We are working on something amazing!</h1>
-      <p>Our website is currently under construction. We will be here soon with our new awesome site 😊</p>
+      <h1>working on something amazing!</h1>
+      <p>this website is currently under construction.i will be here soon with my new awesome portfolio site 😊</p>
     </div>
   );
 };
