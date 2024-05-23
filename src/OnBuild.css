@@ -1,0 +1,24 @@
+.construction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .animation-container {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+  }
+  
+  p {
+    font-size: 1.25rem;
+    color: #6c757d;
+  }
+  
