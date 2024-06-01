@@ -8,6 +8,7 @@ body, #root {
     height: min-content;
     margin: 8px;
     padding: 8px;
+    background: #1D1F27;
 }
 
 #root {
