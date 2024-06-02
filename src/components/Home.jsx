@@ -3,6 +3,7 @@ import Page from "./Page"
 import About from "./About"
 import Certifications from "./Certifications"
 import Footer from "./Footer"
+import TestimonialSlider from "./TestimonialSlider"
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
     <Page />
     <About />
     <Certifications />
+    <TestimonialSlider />
     <Footer />
   </div>
   )

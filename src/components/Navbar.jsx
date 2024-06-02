@@ -10,9 +10,9 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div className=' '>
       <Fade>
-        <nav className='flex flex-row items-center justify-center gap-24  py-2 px-4 md:px-8 z-50'>
+        <nav className='flex flex-row items-center justify-center gap-44  py-2 px-4 md:px-8 z-50 text-white'>
           <img className='h-12' src={profile} alt="Profile" /> 
           <ul className="hidden md:flex flex-row items-center justify-center space-x-8">
             <li><a href="/">Home</a></li>
