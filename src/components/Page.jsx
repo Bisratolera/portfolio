@@ -1,14 +1,14 @@
-import main from "../assets/main.jpg";
+import propic from "../assets/propic.jpeg";
 import { Slide } from "react-awesome-reveal";
 
 const Page = () => {
   return (
-    <div className="grid grid-cols-2 gap-20 sm:justify-center my-20 sm:items-center md:mx-8">
-      <div className="">
+    <div className="grid grid-cols-2 sm:justify-center my-20 sm:items-center md:mx-8">
+      <div className="m-3">
         <Slide direction="left">
           <img
-            className="rounded-tl-[120px] rounded-br-[120px] p-2 ring-8 gradient-ring h-fit w-auto "
-            src={main}
+            className="xl:rounded-tl-[120px] xl:rounded-br-[120px] sm:rounded-tl-[120px] sm:rounded-br-[120px] md:rounded-tl-[120px] md:rounded-br-[120px] p-2 h-fit w-96 "
+            src={propic}
             alt="Profile"
           />
         </Slide>
