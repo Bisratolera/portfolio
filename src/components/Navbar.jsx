@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import profile from '../assets/profile.png';
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 

@@ -4,6 +4,8 @@ import About from "./About"
 import Certifications from "./Certifications"
 import Footer from "./Footer"
 import TestimonialSlider from "./TestimonialSlider"
+import Tools from "./Tools"
+import Promo from "./Promo"
 
 
 const Home = () => {
@@ -12,7 +14,9 @@ const Home = () => {
     <Navbar />
     <Page />
     <About />
+    <Tools />
     <Certifications />
+    <Promo />
     <TestimonialSlider />
     <Footer />
   </div>

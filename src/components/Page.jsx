@@ -1,3 +1,4 @@
+import { FaYoutube } from "react-icons/fa";
 import propic from "../assets/propic.jpeg";
 import { Slide } from "react-awesome-reveal";
 
@@ -22,9 +23,8 @@ const Page = () => {
             also im a content creator at elites and on my own channel called the
             sudo guy both channels have a lot of good stuffs you should have to
             <a href="https://www.youtube.com/@thesudoguyofficial">
-              subscribe to my channel
+              subscribe to my channel <FaYoutube className="yt text-red-500 text-3xl" />
             </a>
-            😁
           </p>
         </div>
       </div>
