@@ -18,5 +18,23 @@ body, #root {
 }
 
 
+/* Add this to your CSS file */
+@media (max-width: 640px) {
+    .banner {
+      padding: 1rem; /* Adjust padding for smaller screens */
+    }
+  
+    .text {
+      margin-left: 0; /* Reset margin for smaller screens */
+      text-align: center; /* Center align text */
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
 
   

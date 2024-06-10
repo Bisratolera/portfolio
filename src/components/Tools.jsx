@@ -11,7 +11,7 @@ const Tools = () => {
     <Fade> 
       <div className="min-h-screen flex flex-col items-center justify-center text-center mt-4 md:mt-20 ">
         <h1 className="text-4xl font-bold mb-8 text-white">Tools</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center gap-6 bg-gradient-to-b from-[#304847] to-[#668888] p-8 rounded-[35px] w-11/12  md:w-3/4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center gap-6 bg-gradient-to-b from-[#304847] to-[#668888]  p-8 rounded-[35px] w-11/12  md:w-3/4">
           <div className="card text-white p-6 flex flex-col">
             <h2 className="text-lg font-semibold mb-4">Audio Visuals</h2>
             <div className="icons flex flex-row items-center gap-4 text-3xl">
