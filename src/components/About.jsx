@@ -6,7 +6,7 @@ const About = () => {
     <div className="flex flex-col sm:flex-row justify-between items-center p-4 sm:p-8">
       <div className="text flex-1 mb-8 sm:mb-0 sm:mr-8">
         <h1 className="text-3xl font-bold mb-4 text-white text-center sm:text-left">
-          Blog
+          Story time
         </h1>
         <p className="text-white text-center sm:text-left">
           Back in 2021, I was nothing but an admirer of technology until one of

@@ -41,8 +41,8 @@ const TestimonialSlider = () => {
                       className="w-16 h-16 rounded-full object-cover"
                     />
                     <div>
-                      <p className="text-lg italic mb-2">{testimonial.text}</p>
                       <h3 className="text-xl font-semibold">{testimonial.author}</h3>
+                      <p className="text-lg italic mb-2">{testimonial.text}</p>
                       <p className="text-sm">{testimonial.role}</p>
                     </div>
                   </div>
