@@ -1,15 +1,34 @@
+import { useState, useEffect } from 'react';
 import { FaYoutube } from "react-icons/fa";
-import propic from "../assets/propic.jpeg";
+import propic from "../assets/propic-hovered.png";
+import newImage from "../assets/propic.jpeg"; 
 import { Slide } from "react-awesome-reveal";
 
 const Page = () => {
+  const [currentImage, setCurrentImage] = useState(propic);
+  const [glitchActive, setGlitchActive] = useState(false);
+
+  useEffect(() => {
+    let timer;
+    const changeImage = () => {
+      setCurrentImage(prevImage => prevImage === propic ? newImage : propic);
+      setGlitchActive(true); 
+      timer = setTimeout(() => {
+        setGlitchActive(false); 
+      }, 100);
+      timer = setTimeout(changeImage, 200);
+    };
+    changeImage();
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="grid grid-cols-2 sm:justify-center my-20 sm:items-center md:mx-8">
-      <div className="m-3">
+      <div className="m-3 relative">
         <Slide direction="left">
           <img
-            className="xl:rounded-tl-[120px] xl:rounded-br-[120px] sm:rounded-tl-[120px] sm:rounded-br-[120px] md:rounded-tl-[120px] md:rounded-br-[120px] p-2 h-fit w-96 "
-            src={propic}
+            className={`glitch ${glitchActive ? 'glitch-active' : ''}  h-fit w-96`}
+            src={currentImage}
             alt="Profile"
           />
         </Slide>

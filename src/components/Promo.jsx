@@ -38,11 +38,11 @@ const Promo = () => {
           </div>
           <div className="flex-1 text-center sm:text-left">
             <p
-              className="text-xl font-semibold"
+              className="text-xl font-semibold text-center"
               style={{ color: textColor }}
               onClick={changeColor}
             >
-              {"-> scan for full info here <-"}
+              {" scan for full info here "}
             </p>
           </div>
           <div className="flex-1 flex justify-center sm:justify-end">

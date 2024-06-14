@@ -6,6 +6,7 @@ import Footer from "./Footer"
 import TestimonialSlider from "./TestimonialSlider"
 import Tools from "./Tools"
 import Promo from "./Promo"
+import BlogPage from "./BlogPage"
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
     <Navbar />
     <Page />
     <About />
+    <BlogPage />
     <Tools />
     <Certifications />
     <Promo />

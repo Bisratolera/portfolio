@@ -9,11 +9,11 @@ const Certifications = () => {
 <Fade delay={45}>
 <div className="first flex flex-col gap-8">
             {/* Card 1 */}
-            <div className="bg-gray-500/40 p-8 rounded-lg shadow-lg w-full h-48 flex items-center justify-center">
+            <div className="bg-[#866aff]/40 p-8 rounded-lg shadow-lg w-full h-48 flex items-center justify-center">
             <h2 className="text-xl font-semibold text-white">uploaded soon ! &nbsp; <IoIosTime /></h2>
           </div>
           {/* Card 2 */}
-          <div className="bg-gray-500/40 p-8 rounded-lg shadow-lg w-full h-48 flex items-center justify-center">
+          <div className="bg-[#866aff]/40 p-8 rounded-lg shadow-lg w-full h-48 flex items-center justify-center">
             <h2 className="text-xl font-semibold text-white">uploaded soon ! &nbsp; <IoIosTime /></h2>
           </div>
 </div>
@@ -22,17 +22,17 @@ const Certifications = () => {
 <Fade>
 <div className="second flex flex-col gap-8 mt-12">
             {/* Card 1 */}
-            <div className="bg-gray-500/40 p-8 rounded-lg shadow-lg w-full h-48 flex items-center justify-center">
+            <div className="bg-[#866aff]/40 p-8 rounded-lg shadow-lg w-full h-48 flex items-center justify-center">
             <h2 className="text-xl font-semibold text-white">uploaded soon ! &nbsp; <IoIosTime /></h2>
           </div>
           {/* Card 2 */}
-          <div className="bg-gray-500/40 p-8 rounded-lg shadow-lg w-full h-48 flex items-center justify-center">
+          <div className="bg-[#866aff]/40 p-8 rounded-lg shadow-lg w-full h-48 flex items-center justify-center">
             <h2 className="text-xl font-semibold text-white">uploaded soon ! &nbsp; <IoIosTime /></h2>
           </div>
 </div>
 </Fade>
       <div className="absolute inset-0 flex items-center justify-center z-0">
-        <div className="w-[300px] h-[300px] rounded-full bg-gradient-to-r from-[#CBF9FF] to-[#415052] blur-[120px] "></div>
+        <div className="w-[300px] h-[300px] rounded-full bg-gradient-to-r from-[#ffffff] to-[#866aff] blur-[120px] "></div>
       </div>
         </div>
       </div>

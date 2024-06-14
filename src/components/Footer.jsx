@@ -3,9 +3,9 @@ import { Fade } from 'react-awesome-reveal';
 
 const Footer = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center ">
+    <div className="flex flex-col items-center justify-center">
         {/* Social Icons */}
-        <div className="flex flex-row gap-4 md:gap-8 mb-4 md:mb-0 text-2xl md:text-3xl lg:text-4xl text-[#32f1ff]">
+        <div className="mt-24 text-4xl gap-8 flex flex-row text-[#fff] md:gap-10 ">
           <Fade direction="up">
             <a href="https://t.me/leultolera" aria-label="Telegram" className="hover:text-[#0088cc] transition-colors duration-300">
               <FaTelegram />
@@ -34,10 +34,10 @@ const Footer = () => {
         </div>
         
         {/* Footer Text */}
-        <p className="text-sm md:text-base lg:text-lg text-center md:text-right">
+        <p className="text-2xl md:text-base lg:text-lg text-center md:text-right">
           Made with ❤️ by Elites
         </p>
-<div className="bg-gradient-to-r from-[#CBF9FF] to-[#415052] blur-[120px]  text-white py-10 px-4 md:px-10 lg:px-28 z-0">
+<div className="bg-gradient-to-r from-[#CBF9FF] to-[#415052] blur-[120px]  text-white py-10 md:px-10 lg:px-28 z-0">
       </div>
     </div>
   );

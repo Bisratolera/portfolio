@@ -6,8 +6,8 @@
 
 body, #root {
     height: min-content;
-    margin: 8px;
-    padding: 8px;
+    margin: 0px;
+    padding: 0px;
     background: #1D1F27;
 }
 
@@ -37,4 +37,45 @@ body, #root {
   }
   
 
+  .glitch {
+    position: relative;
+  }
+  
+  .glitch::before,
+  .glitch::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .glitch::before {
+    background: rgba(255, 255, 255, 0.15);
+    animation: glitch-anim 0.3s infinite linear alternate-reverse;
+  }
+  
+  .glitch-active::after {
+    background: rgba(255, 255, 255, 0.1);
+    animation: glitch-anim-2 0.3s infinite linear alternate-reverse;
+  }
+  
+  @keyframes glitch-anim {
+    0% {
+      transform: translate(-2px, -2px);
+    }
+    100% {
+      transform: translate(2px, 2px);
+    }
+  }
+  
+  @keyframes glitch-anim-2 {
+    0% {
+      transform: translate(2px, 2px);
+    }
+    100% {
+      transform: translate(-2px, -2px);
+    }
+  }
   
